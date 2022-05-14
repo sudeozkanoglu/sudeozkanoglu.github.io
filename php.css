@@ -1,0 +1,41 @@
+.body{       
+    background-color: #000000;
+}
+.navbar{   
+    background-color: #939698;
+    border-radius:top , bottom;
+    font-family:'Segoe Print';
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar-nav{  
+    margin-left: auto;
+}
+table{
+    font-family:'Macondo';
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid #939393;
+    border-color: #141414;
+    background-image: url(images/3d-black-cube-4r.jpg);
+}
+td{
+    color: #939393;
+    text-align: center;
+}
+#btn-1{
+    margin-left: 70%;
+}
+#btn-1 , #btn-2{
+    margin-top: 5%;
+    border-color:#383838 !important;
+    border-radius: 10px;
+    border-style: solid !important;
+    font-family: Segoe Print;
+    font-weight: bold !important;
+}
+#btn-1:hover , #btn-2:hover{
+    background-color:#383838;
+    color: #adadad !important;
+}

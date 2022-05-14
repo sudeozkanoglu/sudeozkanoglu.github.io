@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="loginBasarisiz.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Sude Özkanoğlu|Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-content">
+            <form action="login.php" method="post" class="content-form">
+                <h2 class="title">Üye Girişi</h2>
+                <h5 class="warning">Eksik Bilgi Girişi Yaptınız,Lütfen Tüm Bilgileri Doldurunuz...</h5>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="username" id="" placeholder="Kullanıcı Adı">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Şifre">
+                </div>
+                <input type="submit" value="Giriş Yap" class="btn">
+            </form>
+            <form  class="login-form">
+                <h2 class="title">Üye Değil Misiniz?</h2>
+                <p>Üye Girişi Yapmadan Anasayfaya Gitmek İçin Lütfen Tıklayınız...</p><br>
+                <button class="btn"><a href="hakkımda.html">Anasayfa</a></button>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Üye Misiniz?</h3>
+                    <p>Üye Girişi İçin Lütfen Tıklayınız...</p>
+                    <button class="btn" id="log-btn">Üye Girişi</button>
+                </div>
+                <img src="images/undraw_partying_re_at7f.svg" class="image" alt="">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Üye Değil Misiniz?</h3>
+                    <p>Üye Girişi Yapmadan Anasayfaya Gitmek İçin Lütfen Tıklayınız...</p>
+                    <button class="btn" id="content-btn">Anasayfa</button>
+                </div>
+                <img src="images/undraw_people_re_8spw.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>

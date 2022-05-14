@@ -1,0 +1,104 @@
+.navbar{   
+    background-color: #939698;
+    border-radius:top , bottom;
+    font-family:Segoe Print;
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar-nav{  
+    margin-left: auto;
+}
+.body{       
+    background-color: #14140F;
+}
+.form{  
+    color:#383838;
+}
+.card{ 
+    font-family: Segoe Print;
+    font-weight: bold;
+    background-color: #787878 !important;
+    float: right;
+}
+#map{  
+    background-image: url(images/map.jpg);
+    border-radius: 50px;
+}
+#submit , #reset{
+    border-color:#14140F !important;
+    border-radius: 10px;
+    border-style: solid !important;
+    font-family: Segoe Print;
+    font-weight: bold !important;
+}
+#submit:hover , #reset:hover{ 
+    background-color:#383838;
+    color: #adadad !important;
+}
+.my-3{                          
+    font-family: Segoe Print;
+    color: #A5A39B;
+    text-align: center;
+}
+.social{ 
+    margin: 15px;
+}
+.icon{ 
+    position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.icon:hover{
+    transform: rotateY(180deg);
+}
+.on{           
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A5A39B;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    font-size: 30px;
+}
+.back{ 
+    backface-visibility: hidden;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#A5A39B;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    font-size: 20px;
+    font-weight:bold;
+    transform: rotateY(180deg);
+}
+.web{              
+    text-decoration: none;
+    color: #14140F;
+}
+.web:hover{             
+    color: #14140F;
+}
+option{        
+    background-color: #787878;
+    font-weight: bold;
+}
+footer{    
+    background-color: #939698;
+    border-radius: top,bottom;
+    font-family: Segoe Print;
+    font-weight: bolder;
+}
